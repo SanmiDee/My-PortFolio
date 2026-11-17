@@ -24,4 +24,12 @@ export const projects = [
     description:
       "A pizza ordering interface designed to make browsing menu items and exploring an online food ordering experience straightforward and engaging.",
   },
+  {
+    title: "The Wild Oasis",
+    url: "https://the-wild-oasisssss.netlify.app/",
+    github: "",
+    tags: ["HTML", "Tailwind CSS", "React"],
+    description:
+      "A full-stack management dashboard app for a luxury cabin hotel, covering bookings, cabins, and guests.",
+  },
 ];

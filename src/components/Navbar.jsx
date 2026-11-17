@@ -16,7 +16,15 @@ export default function Navbar() {
   return (
     <header className="fixed inset-x-0 top-0 z-50 border-b border-line bg-cream/90 backdrop-blur">
       <nav aria-label="Main" className="mx-auto flex h-16 max-w-6xl items-center justify-between px-5">
+      <div className="flex items-center gap-3">
+        <img
+        src="/me.png"
+        alt="Dorcas"
+        className="h-14 w-14 rounded-full object-cover"
+        />
         <a href="#home" className="font-display text-2xl font-extrabold tracking-tight">Dorcas<span className="text-accent">.</span></a>
+        </div>
+
         <ul className="hidden items-center gap-1 md:flex">
           {links.map((l) => <li key={l}><a href={`#${l.toLowerCase()}`} className={link(l)}>{l}</a></li>)}
         </ul>
